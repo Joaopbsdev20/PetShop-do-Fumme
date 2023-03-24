@@ -1,0 +1,178 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    display: flex;
+    float: right;
+   
+    
+}
+
+nav a {
+    display: flex;
+    margin-right: auto;
+}
+
+img {
+    width: 100px;
+    padding: 0px;
+    margin-left: 30px
+}
+
+
+
+ul li {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ul li a {
+    display: flex;
+    justify-content: center;
+   text-decoration: none;
+   font-family:'Courier New', Courier, monospace;
+   margin: 10px;
+   font-size: 24px;
+   color: black;
+   font-weight: bold;
+
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding-left: 1200px;       
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    height: 1400px;
+    flex-wrap: wrap;
+}
+
+.produtos {
+    border: 1px groove #fdbb18;
+    border-radius: 20px;
+    width: 25%;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.produtos img {
+    margin: auto;
+}
+
+button{
+    background-color: black;
+    border-radius: 10px;
+    border: 0;
+
+}
+
+button a {
+    text-decoration: none;
+    color: #fdbb18;
+    font-size: 16px;
+}
+
+
+.container {
+    max-width: 3000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fdbb18;
+    padding: 1rem;
+    flex: 1; 
+    margin-bottom: 40px;
+    border-radius: 1px; 
+
+}
+
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+    flex: 1; 
+    margin-bottom: 30px;
+    border-style: solid;
+    border-color: #fdbb18;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    flex-wrap: nowrap;
+    background-color: #fdbb18;
+
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+ 
+}
+
+.links {
+    width: 300px;
+    height: 280px;
+    text-align: center;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+
+
+
+
+hr {
+    width: 40%;
+}

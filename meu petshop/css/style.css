@@ -1,0 +1,170 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    display: flex;
+    float: right;
+   
+    
+}
+
+nav a {
+    display: flex;
+    margin-right: auto;
+}
+
+img {
+    width: 125px;
+}
+
+a {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+ul li {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ul li a {
+    display: flex;
+    justify-content: center;
+   text-decoration: none;
+   font-family:'Courier New', Courier, monospace;
+   margin: 10px;
+   font-size: 24px;
+   color: black;
+   font-weight: bold;
+
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding-left: 1200px;       
+}
+
+
+p {
+    display: flex;
+    justify-content: center;
+    background-color: #fdbb18;   
+}
+
+.frase {
+    font-size: 22px;
+}
+
+.nome {
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 2rem; 
+}
+
+#dog {
+    width: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+#arara {
+    width: 300px;
+    height: 300px;
+}
+
+#img {
+    width: 700px;
+
+}
+
+.animais {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+.container {
+    max-width: 3000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fdbb18;
+    padding: 1rem;
+    flex: 1; 
+    margin-bottom: 40px;
+    border-radius: 1px; 
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    flex-wrap: nowrap;
+    background-color: #fdbb18;
+
+}
+
+p, a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+ 
+}
+
+.links {
+    width: 300px;
+    height: 280px;
+    text-align: center;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+hr {
+    width: 40%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    
+    .column {
+        flex-basis: 100%;
+    }
+}

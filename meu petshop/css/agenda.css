@@ -1,0 +1,216 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    display: flex;
+    float: right;
+   
+    
+}
+
+nav a {
+    display: flex;
+    margin-right: auto;
+}
+
+img {
+    width: 125px;
+}
+
+a {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+ul li {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ul li a {
+    display: flex;
+    justify-content: center;
+   text-decoration: none;
+   font-family:'Courier New', Courier, monospace;
+   margin: 10px;
+   font-size: 24px;
+   color: black;
+   font-weight: bold;
+
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding-left: 1200px;       
+}
+
+
+p {
+    display: flex;
+    justify-content: center;   
+}
+
+.frase {
+    font-size: 22px;
+}
+
+.container {
+    max-width: 3000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fdbb18;
+    padding: 1rem;
+    flex: 1; 
+    margin-bottom: 40px;
+    border-radius: 1px; 
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    background-color:#ffdd88b0;
+    font-size: 1em;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#titulo {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 7%;
+}
+
+#subtitulo {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+fieldset {
+    border: 0;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;  
+}
+
+.campo {
+   margin-bottom: 1em; 
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset .grupo .campo {
+    float: left;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #fdbb18;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+
+.botao {
+    font-size: 1.2em;
+    background-color: #fdbb18;
+    border: 0;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgb(0,0,0,0.5);
+}
+
+.botao:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgb(0,0,0,0.2);
+    text-shadow: none;
+}
+
+#check {
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    flex-wrap: nowrap;
+    background-color: #fdbb18;
+
+}
+
+p, a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+ 
+}
+
+.links {
+    width: 300px;
+    height: 280px;
+    text-align: center;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+hr {
+    width: 40%;
+}
+
+/* Agenda */
+
+
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    
+    .column {
+        flex-basis: 100%;
+    }
+}
